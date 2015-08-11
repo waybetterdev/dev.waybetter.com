@@ -1,5 +1,5 @@
 ---
-title: Symfony Live Hacking Day!
+title: Symfony Live Hacking Day! - DELETE ME
 tags: [sensio, symfony, symfony live]
 categories: [personal]
 
