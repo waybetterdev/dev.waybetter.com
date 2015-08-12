@@ -2,7 +2,7 @@
 title: Using Ansible to Rule the World! (well, the DevOps world--maybe, I guess)
 tags: [ansible, techops, devops]
 categories: []
-author: Mike Klass
+author: [Mike Klass]
 ---
 
 ### Intro

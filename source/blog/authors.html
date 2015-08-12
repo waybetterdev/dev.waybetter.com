@@ -1,0 +1,13 @@
+<!-- ---
+layout: default
+title: Author
+use:
+    - posts_author
+---
+<h2>Author</h2>
+
+<div>
+{% for author,posts in data.posts_author %}
+<a href="{{ site.url }}/blog/authors/{{ author|url_encode(true) }}">{{ author }}</a>
+{% endfor %}
+</div> -->

@@ -1,7 +1,7 @@
 ---
 title: Building an AngularJS app
 tags: [angular, frontend]
-author: ['Jason Savino', jason]
+author: [Mike Klass]
 ---
 
 This post will walk you through how to get an AngularJS client-side theme running on an existing Drupal 8 app server. We will discuss setting up the Drupal 8 server in a future post.

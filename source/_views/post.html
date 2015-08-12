@@ -7,11 +7,17 @@
 {% block content_wrapper %}
     <article>
         <header>
-            <h2>{{ page.title }} <small>post</small></h2>
+            <h2>{{ page.title }} <small></small></h2>
         </header>
-                    <div class="post-meta-text">
-                <a class="author-name" itemprop="author"  itemscope="" itemtype="http://schema.org/Person" href="{{ site.url }}/authors/author">Author</a>
-                on
+            <div class="post-meta-text">
+              {% if page.author %}
+                  <p class="author">
+                  By:
+                  {% for author in page.author %}
+                  <a href="{{ site.url }}/blog/authors/{{ author|url_encode(true) }}">{{ author }}</a>{% if not loop.last %}, {% endif %}
+                  {% endfor %}
+                  </p>
+              {% endif %}
                 <time datetime="{{ page.date|date('c') }}" pubdate>
                     <span class='month'>{{ page.date|date('M') }}</span> <span class='day'>{{ page.date|date('jS') }}</span> <span class='year'>{{ page.date|date('Y') }}</span>
                 </time>
@@ -35,15 +41,6 @@
             {% endfor %}
             </p>
         {% endif %}
-        {% if page.author %}
-            <p class="author">
-            author:
-            {% for tag in page.author %}
-            <a href="{{ site.url }}/blog/author/{{ tag|url_encode(true) }}">{{ author }}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-            </p>
-        {% endif %}
-
         {% if page.previous_post or page.next_post %}
             <nav class="article">
                 <ul>

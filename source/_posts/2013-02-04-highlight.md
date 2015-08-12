@@ -2,6 +2,7 @@
 title: Syntax Highlighting - DELETE ME.
 categories:
     - features
+author: [Mike Klass]
 
 ---
 You're all programmers, right? And you're writing code snippets on your Sculpin
