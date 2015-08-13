@@ -1,8 +1,9 @@
 ---
 title: Symfony Live Hacking Day! - DELETE ME
-tags: [sensio, symfony, symfony live]
+tags: [sensio, symfony, symfony live, stevens]
 categories: [personal]
-author: [Nikki Stevens]
+name: [Nikki Stevens]
+author: [stevens]
 ---
 Fun times at the Symfony Live San Francisco 2012 Hacking Day! Code
 was hacked and pizza was had. Some pics of the conference are

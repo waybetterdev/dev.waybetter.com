@@ -11,13 +11,18 @@
         </header>
             <div class="post-meta-text">
               {% if page.author %}
+                {% if page.name %}
+
                   <p class="author">
-                  By:
                   {% for author in page.author %}
-                  <a href="{{ site.url }}/blog/authors/{{ author|url_encode(true) }}">{{ author }}</a>{% if not loop.last %}, {% endif %}
+                    {% for name in page.name %}
+                    <a href="{{ site.author }}/authors/{{ author }}">{{ name }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
                   {% endfor %}
                   </p>
+                {% endif %}
               {% endif %}
+
                 <time datetime="{{ page.date|date('c') }}" pubdate>
                     <span class='month'>{{ page.date|date('M') }}</span> <span class='day'>{{ page.date|date('jS') }}</span> <span class='year'>{{ page.date|date('Y') }}</span>
                 </time>

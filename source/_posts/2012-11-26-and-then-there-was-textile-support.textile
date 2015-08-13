@@ -2,10 +2,10 @@
 title: And Then There Was Textile Support - DELETE ME
 categories:
     - features
-tags:
-    - sculpin
-    - textile
-author: [Mike Klass]
+tags: [sculpin, textile, stevens]
+name: [Nikki Stevens]
+author: [stevens]
+
 
 ---
 "Textile":https://github.com/netcarver/textile support was added on November 26th, 2012. Markdown is great, but so is choice. More converters for all!
