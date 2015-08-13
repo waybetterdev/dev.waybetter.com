@@ -1,8 +1,8 @@
 ---
 title: Building an AngularJS app
-tags: [angular, frontend, jason_savino]
+tags: [angular, frontend, jason-savino]
 name: [Jason Savino]
-author: [jason_savino]
+author: [jason-savino]
 
 ---
 

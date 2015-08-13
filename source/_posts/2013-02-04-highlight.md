@@ -2,10 +2,10 @@
 title: Syntax Highlighting - DELETE ME.
 categories:
     - features
-tags: [angular, frontend, nikki_stevens]
+tags: [angular, frontend, nikki-stevens]
 
 name: [Nikki Stevens]
-author: [nikki_stevens]
+author: [nikki-stevens]
 
 
 ---
