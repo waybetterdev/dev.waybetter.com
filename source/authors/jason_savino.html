@@ -1,0 +1,49 @@
+---
+title: Jason Savino
+use:
+    - posts
+tags:
+    - that podcast
+    - thatpodcast
+    - dflydev
+excerpt: "Jason has developed software since 1998 and created Sculpin. He owns dflydev and is co-host of That Podcast. Jason is a proponent of framework agnostic code. Unglue all the things!"
+---
+{% extends "default" %}
+{% block meta %}
+    <meta name="description" content="{{ page.excerpt }}">
+    <meta name="keywords" content="sculpin, {% for tag in page.tags %}{% if loop.first %}, {% endif %}{{ tag }}{% if not loop.last %}, {% endif %}{% endfor %}" />
+
+    <!-- Facebook -->
+    <meta property="og:title" content="Sculpin's Blog author {{ page.title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="{{ site.url }}/assets/images/authors/Jason-600x600.jpg" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
+    <meta property="og:description" content="{{ page.excerpt }}" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Sculpin's Blog author {{ page.title }}" />
+    <meta name="twitter:description" content="{{ page.excerpt }}" />
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/authors/Jason-600x600.jpg" />
+    <meta name="twitter:site" content="@getsculpin" />
+{% endblock %}
+
+{% block content %}
+    <header>
+        <h1>Jason Savino</h1>
+        <p>
+            Jason Savino (<a href="https://twitter.com/JasonSavino">@JasonSavino</a>, <a href="https://Jason.io">Jason.io</a>) has been a professional polyglot programmer since 1998. He owns dflydev (<a href="http://dflydev.com">dflydev.com</a>), a consulting company, and is co-host of That Podcast (<a href="https://twitter.com/thatpodcast">@thatpodcast</a>, <a href="http://thatpodcast.io">thatpodcast.io</a>).
+        </p>
+        <p>
+            An active open-sourcer, Jason created life (<a href="https://life.io">life.io</a>) and helped create Stack PHP (<a href="http://stackphp.com">stackphp.com</a>). He is also the life representative to the PHP Framework Interoperability Group (PHP-FIG).
+        </p>
+        <p>
+            Jason is a proponent of framework agnostic code. Unglue all the things!
+        </p>
+    </header>
+
+    <br>
+
+    <h1>Posts Written by Jason</h1>
+    {% set year = '0' %}
+{% endblock %}
