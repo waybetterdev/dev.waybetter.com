@@ -9,7 +9,7 @@ pagination:
 ---
 {% extends "default" %}
 {% block meta %}
-    <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/blog/tags/nikki-stevens"/>
+    <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/blog/tags/{{ page.tag }}"/> 
     <meta name="robots" content="noindex, follow">
 {% endblock %}
 
@@ -17,19 +17,18 @@ pagination:
 
   <header>
 
-{% if page.tag == "nikki-stevens" %}
-  {% include 'partials/nikki-stevens.html' %}
+    <!-- conditions connect to specific partials containing corresponding author bios dependent upon user selection -->
+    {% if page.tag == "nikki-stevens" %} 
+      {% include 'partials/nikki-stevens.html' %}
 
-{% elseif page.tag == "mike-klass" %}
-  {% include 'partials/mike-klass.html' %}
+    {% elseif page.tag == "mike-klass" %}
+      {% include 'partials/mike-klass.html' %}
 
-{% elseif page.tag == "jason-savino" %}
-  {% include 'partials/jason-savino.html' %}
-{% endif %}
+    {% elseif page.tag == "jason-savino" %}
+      {% include 'partials/jason-savino.html' %}
+    {% endif %}
   </header>
 
-  <h1>{{ page.tag }}'s articles</h1>
-
-  {% include 'partials/articles.html' %}
+  {% include 'partials/articles.html' %} <!-- partial returns all articles posted by selected author -->
 
 {% endblock %}
