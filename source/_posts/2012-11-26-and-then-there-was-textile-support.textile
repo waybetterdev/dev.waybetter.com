@@ -1,7 +1,6 @@
 ---
 title: And Then There Was Textile Support - DELETE ME
-categories:
-    - features
+categories: [features]
 tags: [sculpin, textile, nikki-stevens]
 name: [Nikki Stevens]
 author: [nikki-stevens]
