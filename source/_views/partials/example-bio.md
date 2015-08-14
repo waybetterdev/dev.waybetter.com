@@ -1,1 +1,18 @@
-example-bio.md
+<div class="bio">
+  <img src="/images/author_bios/merc.gif">
+  <h1>Sailor Mercury</h1>
+</div>
+
+<p>
+  <h4>Bout Mercury</h4> ipsum dolor sit amet, consectetur adipisicing elit. Cum totam, dolore quia voluptatum consequatur magni in corrupti porro impedit consequuntur nesciunt, ipsam, mollitia inventore labore iusto explicabo debitis expedita. Obcaecati..
+</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, omnis iste cum commodi sed debitis, accusantium eum quas asperiores reiciendis fuga id, et at voluptate vel exercitationem esse, architecto? Atque?.
+</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, ut quae, voluptatem nihil, commodi minima molestias consequatur adipisci optio quia fuga voluptatum esse rerum vel perferendis natus consequuntur a accusantium!
+</p>
+
+<br>
+
+<h1>Posts written by Mercury</h1>
