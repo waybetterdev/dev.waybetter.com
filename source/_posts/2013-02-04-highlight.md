@@ -1,7 +1,11 @@
 ---
 title: Syntax Highlighting - DELETE ME.
-categories:
-    - features
+categories: [features]
+tags: [angular, frontend, nikki-stevens]
+
+name: [Nikki Stevens]
+author: [nikki-stevens]
+
 
 ---
 You're all programmers, right? And you're writing code snippets on your Sculpin
