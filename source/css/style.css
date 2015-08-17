@@ -1,6 +1,14 @@
 .hide {
   display: none;
 }
+.bio-pic {
+  height: 35px;
+  width: 35px;
+  float: left;
+  padding-right: 5px;
+  padding-top: 3px;
+  border-radius: 50%;
+}
 h4 small
 {
     display: block;
