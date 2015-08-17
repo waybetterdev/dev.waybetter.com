@@ -2,17 +2,25 @@
   margin-left: 20%;
 
 }
-.post-images-small {
+.img-small {
+  height: 20px;
+  width: 20px;
+}
+.img-thumb {
   height: 50px;
   width: 50px;
 }
-.post-images-medium {
+.img-med{
   height: 100px;
   width: 100px;
 }
-.post-images-large {
+.img-large {
   height: 400px;
   width: 400px;
+}
+.img-huge {
+  height: 800px;
+  width: 800px;
 }
 
 h4 small

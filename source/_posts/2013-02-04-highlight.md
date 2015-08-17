@@ -5,7 +5,7 @@ categories:
 
 ---
 
-<img class="post-images-small" src="https://instagram.com/p/4QBQUIGNP3/?taken-by=poodlethebulldog">
+<img class="img-small" src="https://instagram.com/p/4QBQUIGNP3/?taken-by=poodlethebulldog">
 
 You're all programmers, right? And you're writing code snippets on your Sculpin
 powered blog? Yeah. So you want some highlighting with your static site generation?
