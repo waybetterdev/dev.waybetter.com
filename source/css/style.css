@@ -1,16 +1,16 @@
-.post_images {
+.post-images {
   margin-left: 20%;
 
 }
-.post_images_small {
+.post-images-small {
   height: 50px;
   width: 50px;
 }
-.post_images_medium {
+.post-images-medium {
   height: 100px;
   width: 100px;
 }
-.post_images_large {
+.post-images-large {
   height: 400px;
   width: 400px;
 }

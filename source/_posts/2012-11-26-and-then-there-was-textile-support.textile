@@ -8,7 +8,7 @@ tags:
 
 ---
 
-<img class="post_images" src="http://placehold.it/300x200">
+<img class="post-images-medium" src="https://instagram.com/p/4QBQUIGNP3/?taken-by=poodlethebulldog">
 
 "Textile":https://github.com/netcarver/textile support was added on November 26th, 2012. Markdown is great, but so is choice. More converters for all!
 
