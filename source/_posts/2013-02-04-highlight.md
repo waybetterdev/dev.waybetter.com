@@ -7,9 +7,13 @@ author: [nikki-stevens]
 
 
 ---
+
+<img class="post_images" src="http://placehold.it/300x200">
+
 You're all programmers, right? And you're writing code snippets on your Sculpin
 powered blog? Yeah. So you want some highlighting with your static site generation?
 Here you go!
+
 
     namespace Foo;
 
