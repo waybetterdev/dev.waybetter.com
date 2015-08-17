@@ -5,8 +5,11 @@
 
 <!-- Your image code should look like this:  -->
 
-<img class="post-images" src="/images/posts/your-photo.jpg" alt="Me" style="width:128px;height:128px;"> 
+<img class="post-images-small" src="https://instagram.com/poodlethebulldog/"> 
 
-<!-- Define the height and width of your image and place your code at your desired location within the blog -->
+<img class="post-images-medium" src="https://instagram.com/poodlethebulldog/"> 
+
+<img class="post-images-large" src="https://instagram.com/poodlethebulldog/"> 
+
 
 

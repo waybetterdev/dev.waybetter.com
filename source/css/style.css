@@ -1,5 +1,18 @@
 .post_images {
   margin-left: 20%;
+
+}
+.post_images_small {
+  height: 50px;
+  width: 50px;
+}
+.post_images_medium {
+  height: 100px;
+  width: 100px;
+}
+.post_images_large {
+  height: 400px;
+  width: 400px;
 }
 
 h4 small
