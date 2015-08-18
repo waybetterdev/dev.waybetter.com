@@ -42,8 +42,15 @@
       <p class="tags">
       Tags:
       {% for tag in page.tags %}
-        <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
-        {% if not loop.last %}, {% endif %}
+        {% if tag == "nikki-stevens" %} 
+          <a class="hide" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a> 
+        {% elseif tag == "mike-klass" %}
+          <a class="hide" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a> 
+        {% elseif tag == "jason-savino" %}
+          <a class="hide" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
+        {% else %} 
+          <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
+        {% endif %}
       {% endfor %}
       </p>
     {% endif %}
