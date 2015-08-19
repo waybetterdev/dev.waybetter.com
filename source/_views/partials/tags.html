@@ -1,0 +1,7 @@
+<!-- array of post authors -->
+{% set authors = ["nikki-stevens", "jason-savino", "mike-klass"] %} 
+<!-- conditional statement to skip author tags from appearing in posts and tags page -->
+{% if tag in authors %}
+{% else %} 
+  <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
+{% endif %}

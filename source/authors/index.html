@@ -12,11 +12,8 @@ pagination:
     <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/blog/tags/{{ page.tag }}"/> 
     <meta name="robots" content="noindex, follow">
 {% endblock %}
-
 {% block content %}
-
   <header>
-
     <!-- conditions connect to specific partials containing corresponding author bios dependent upon user selection -->
     {% if page.tag == "nikki-stevens" %} 
       {% include 'partials/nikki-stevens.html' %}
@@ -28,7 +25,5 @@ pagination:
       {% include 'partials/jason-savino.html' %}
     {% endif %}
   </header>
-
   {% include 'partials/articles.html' %} <!-- partial returns all articles posted by selected author -->
-
 {% endblock %}

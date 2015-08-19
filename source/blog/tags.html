@@ -8,15 +8,7 @@ use:
 
 <div>
 <!-- conditions to hide author tag names on the tags page --> 
-{% for tag,posts in data.posts_tags %}
-  {% if tag == "nikki-stevens" %} 
-    <a class="hide" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a> 
-  {% elseif tag == "mike-klass" %}
-    <a class="hide" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a> 
-  {% elseif tag == "jason-savino" %}
-    <a class="hide" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
-  {% else %} 
-    <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
-  {% endif %}
-{% endfor %}
+  {% for tag,posts in data.posts_tags %}
+    {% include 'partials/tags.html' %}
+  {% endfor %}
 </div>
