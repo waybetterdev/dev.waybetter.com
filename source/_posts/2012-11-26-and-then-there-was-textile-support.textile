@@ -7,6 +7,9 @@ author: [nikki-stevens]
 
 
 ---
+
+<img class="img-med" src="https://instagram.com/p/4QBQUIGNP3/?taken-by=poodlethebulldog">
+
 "Textile":https://github.com/netcarver/textile support was added on November 26th, 2012. Markdown is great, but so is choice. More converters for all!
 
 In honor of this milestone, this post is written in *Textile*.
