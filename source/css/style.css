@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   font-family: 'MuseoSans-100', 'Helvetica', 'Tahoma', sans-serif
@@ -8,6 +9,29 @@ body {
   position: relative;
   height: 50%;
   width: 100%;
+=======
+.bio-pic {
+  height: 35px;
+  width: 35px;
+  float: left;
+  padding-right: 5px;
+  padding-top: 3px;
+  border-radius: 50%;
+}
+
+.social-media {
+  margin-left: 0px;
+}
+
+.social-media li { 
+  display: inline-block;
+}
+
+.social-media img {
+  height: 30px; 
+  width: 30px;
+  padding-left: 2px;
+>>>>>>> bf6416718078011c659b5abc05578f94bab3a6f5
 }
 
 .post-images {
