@@ -34,7 +34,9 @@ A very basic Sculpin based blog supporting the following features:
  * A blog tags page at `/blog/tags`.
  * A blog tag index at `/blog/tags/$tag`. Similar to the blog archive
    except broken down by each tag.
-
+ * Authors bios can be found in /views/partials/first-last
+ * Author bio photos should be saved in /images/bio-pics
+ * Adding new author tags for relevent posts is in /views/partials.  Within will be instructions on how to add new authors.
 
 Build
 -----
