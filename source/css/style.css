@@ -1,3 +1,15 @@
+body {
+  margin: 0;
+  font-family: 'MuseoSans-100', 'Helvetica', 'Tahoma', sans-serif
+}
+
+.header-logo {
+  background-image: url(/images/waybetterlogo.png);
+  position: relative;
+  height: 50%;
+  width: 100%;
+}
+
 .post-images {
   margin-left: 20%;
 }
