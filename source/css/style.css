@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   margin: 0;
   font-family: 'MuseoSans-100', 'Helvetica', 'Tahoma', sans-serif
@@ -6,10 +5,15 @@ body {
 
 .header-logo {
   background-image: url(/images/waybetterlogo.png);
-  position: relative;
-  height: 50%;
-  width: 100%;
-=======
+  background-repeat: no-repeat;
+  height: 96px;
+  width: 277px;
+}
+
+.navbar-inner {
+  height: 70px;
+}
+
 .bio-pic {
   height: 35px;
   width: 35px;
@@ -31,7 +35,6 @@ body {
   height: 30px; 
   width: 30px;
   padding-left: 2px;
->>>>>>> bf6416718078011c659b5abc05578f94bab3a6f5
 }
 
 .post-images {
@@ -71,6 +74,14 @@ h4 small {
 
 .mainContent, footer.container {
   max-width: 900px;
+}
+
+.mainContent {
+  padding-top: 50px;
+}
+
+.nav {
+  padding-top: 15px;
 }
 
 footer.container {
