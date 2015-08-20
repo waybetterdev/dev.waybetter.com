@@ -4,12 +4,7 @@ body {
   font-family: 'MuseoSans-100', 'Helvetica', 'Tahoma', sans-serif
 }
 
-.mainContent {
-
-}
-
-.span8 {
-  width: 50%;
+.about {
   background-color: #ffffff;
 }
 
@@ -86,10 +81,6 @@ h4 small {
   color: #888;
 }
 
-.mainContent, footer.container {
-  max-width: 900px;
-}
-
 .mainContent {
   padding-top: 50px;
 }
@@ -98,8 +89,13 @@ h4 small {
   padding-top: 15px;
 }
 
+
 footer.container {
+  position: fixed;
+  bottom: 0px;
+  background-color: gray;
   margin-top: 30px;
+  width: 100%;
   padding: 30px 0;
   border-top: 1px dashed #aaa;
 }

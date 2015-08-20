@@ -4,7 +4,7 @@ title: About
 
 ---
 # About Us
-
+<div class="about">
 WayBetter is pioneering a new approach to behavior change. We call it The WayBetter Way™. 
 
 Our first product is DietBet, a game that helps people lose weight by betting on themselves. It works by providing group support, microgoals, and real rewards. And while there's money on the line, DietBet isn't about betting. It’s about believing in yourself, investing in your health, and sticking to your commitments. 
@@ -14,5 +14,6 @@ It works. Since 2013 dietbetters have lost over 2 million pounds. Along the way,
 Stay tuned in 2016 for new WayBetter products like CigaBet to quit smoking, FitBet to shape up, and SleepBet to get enough sleep.
 
 Read more about [WayBetter][1].
+</div>
 
 [1]: http://www.waybetter.com/about
