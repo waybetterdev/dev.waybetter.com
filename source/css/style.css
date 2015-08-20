@@ -1,3 +1,8 @@
+@font-face {
+ font-family:MuseoSans;
+ src: url(/fonts/museo-sans/);
+} 
+
 body {
   margin: 0;
   font-family: 'MuseoSans-100', 'Helvetica', 'Tahoma', sans-serif
