@@ -6,6 +6,7 @@ body {
 
 .about {
   background-color: #ffffff;
+  padding: 30px;
 }
 
 .span8 h1 {
@@ -88,7 +89,6 @@ h4 small {
 .nav {
   padding-top: 15px;
 }
-
 
 footer.container {
   position: fixed;
