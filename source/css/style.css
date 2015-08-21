@@ -7,10 +7,12 @@ body {
 .about {
   background-color: #ffffff;
   padding: 30px;
+  margin-left: 10%; 
+  width: 700px;
 }
 
 .span8 h1 {
-  text-align: center;
+  margin-left: 55%;
   font-family: 'WisdomScriptRegular';
 }
 
@@ -22,7 +24,7 @@ body {
 }
 
 .navbar-inner {
-  height: 70px;
+  height: 50px;
 }
 
 .bio-pic {
@@ -88,7 +90,7 @@ h4 small {
 }
 
 .nav {
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 footer.container {
@@ -101,15 +103,19 @@ footer.container {
 }
 
 @media (max-width: 767px) {
+
   .sidebar {
     padding-top: 30px;
   }
+
 }
 
 @media (min-width: 980px) {
+
   body {
     padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
     padding-bottom: 40px;
   }
+
 }
 
