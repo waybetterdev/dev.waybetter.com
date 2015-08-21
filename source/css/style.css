@@ -1,13 +1,13 @@
 body {
   background-color: #f2f2f2;
+  font-family: 'MuseoSans-100', 'Helvetica', 'Tahoma', sans-serif;
   margin: 0;
-  font-family: 'MuseoSans-100', 'Helvetica', 'Tahoma', sans-serif
 }
 
 .about {
   background-color: #ffffff;
-  padding: 30px;
   margin-left: 10%; 
+  padding: 30px;
   width: 700px;
 }
 
@@ -16,8 +16,8 @@ body {
 }
 
 .about-head {
-  margin-left: 55%;
   font-family: 'WisdomScriptRegular';
+  margin-left: 55%;
 }
 
 .header-logo {
@@ -32,12 +32,12 @@ body {
 }
 
 .bio-pic {
-  height: 35px;
-  width: 35px;
+  border-radius: 50%;
   float: left;
+  height: 35px;
   padding-right: 5px;
   padding-top: 3px;
-  border-radius: 50%;
+  width: 35px;
 }
 
 .social-media {
@@ -84,9 +84,9 @@ body {
 }
 
 h4 small {
+  color: #888;
   display: block;
   font-size: 60%;
-  color: #888;
 }
 
 .mainContent {
@@ -98,12 +98,12 @@ h4 small {
 }
 
 footer.container {
-  position: fixed;
-  bottom: 0px;
   background-color: gray;
+  bottom: 0px;
   margin-top: 30px;
-  width: 100%;
   padding: 30px 50px;
+  position: fixed;
+  width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -117,8 +117,8 @@ footer.container {
 @media (min-width: 980px) {
 
   body {
-    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
     padding-bottom: 40px;
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
   }
 
 }
