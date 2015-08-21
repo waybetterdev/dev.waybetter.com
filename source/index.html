@@ -10,10 +10,15 @@ use:
 {% for post in page.pagination.items %}
     <article>
         <header>
-            <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+          <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+          <p>by:
+          {% for name in post.name %}
+            <b><a href="{{ site.url }}/authors/{{ post.author[loop.index0] }}">{{ name }}</a></b>{% if not loop.last %}, {% endif %}
+          {% endfor %}
+          </p>
         </header>
         <div>
-<p>{{ post.blocks.content|length > 200 ? post.blocks.content|striptags|slice(0, 200) ~ '...' : post.blocks.content|striptags  }}</p>
+          <p>{{ post.blocks.content|length > 200 ? post.blocks.content|striptags|slice(0, 200) ~ '...' : post.blocks.content|striptags  }}</p>
         </div>
         {% if post.meta.tags %}
             <p class="tags">
