@@ -3,7 +3,7 @@ layout: default
 title: About
 
 ---
-# About Us
+<h1 class="about-head">About Us</h1>
 <div class="about">
 WayBetter is pioneering a new approach to behavior change. We call it The WayBetter Way™. 
 <br>
