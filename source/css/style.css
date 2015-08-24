@@ -27,27 +27,27 @@
 
 .img-small {
   height: 20px;
-  width: 20px;
+  width: auto;
 }
 
 .img-thumb {
   height: 50px;
-  width: 50px;
+  width: auto;
 }
 
 .img-med{
   height: 100px;
-  width: 100px;
+  width: auto;
 }
 
 .img-large {
   height: 400px;
-  width: 400px;
+  width: auto;
 }
 
 .img-huge {
   height: 800px;
-  width: 800px;
+  width: auto;
 }
 
 h4 small {
