@@ -127,3 +127,14 @@ Adding New Authors
   - Be sure to include author's name as a tag (ex. jon-doe)
 4. Update author array list in /source/_views/partials/tags.html
 
+   
+Adding Images
+-------------   
+Add embedded images to your blog first by 
+1. Save your image to: dev.waybetter.com/source/images/posts
+2. Access your image by placing the desired tags within your blog post.    
+Image tags should look like this:    
+<img class="post-images-small" src="/images/posts/your-photo.jpg">     
+<img class="post-images-medium" src="/images/posts/your-photo.jpg">    
+<img class="post-images-large" src="/images/posts/your-photo.jpg">     
+ 
