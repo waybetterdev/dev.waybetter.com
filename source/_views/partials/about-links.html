@@ -1,0 +1,11 @@
+{% if page.author %}
+  {% if page.name %}
+    <p class="author">
+      {% for author in page.author %}
+        {% for name in page.name %}
+        <a href="{{ site.url }}/authors/{{ author }}">{{ name }}</a>{% if not loop.last %}, {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </p>
+  {% endif %}
+{% endif %}
