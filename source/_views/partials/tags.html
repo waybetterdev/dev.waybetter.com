@@ -1,6 +1,5 @@
 <!-- array of post authors: this is where new authors are added.  Add the author into the set authors array as "first-last"-->
-{% set authors = ["nikki-stevens", "jason-savino", "mike-klass"] %} 
 <!-- conditional statement to skip author tags from appearing in posts and tags page -->
-{% if tag not in authors %}
-  <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
-{% endif %}
+  {% if tag not in page.author %}
+    <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
+  {% endif %}
