@@ -10,20 +10,9 @@
       <h2>{{ page.title }} <small></small></h2>
     </header>
     <div class="post-meta-text">
-      {% if page.author %}
-        {% if page.name %}
-          <p class="author">
-            {% for author in page.author %}
-              {% for name in page.name %}
-              <a href="{{ site.url }}/authors/{{ author }}">{{ name }}</a>{% if not loop.last %}, {% endif %}
-              {% endfor %}
-            {% endfor %}
-          </p>
-        {% endif %}
-      {% endif %}
-
+      {% include 'partials/about-links.html' %}
       <time datetime="{{ page.date|date('c') }}" pubdate>
-          <span class='month'>{{ page.date|date('M') }}</span> <span class='day'>{{ page.date|date('jS') }}</span> <span class='year'>{{ page.date|date('Y') }}</span>
+        <span class='month'>{{ page.date|date('M') }}</span> <span class='day'>{{ page.date|date('jS') }}</span> <span class='year'>{{ page.date|date('Y') }}</span>
       </time>
     </div>
     <div>
@@ -50,10 +39,10 @@
       <nav class="article">
         <ul>
           {% if page.next_post %}
-              <li>Next: <a class="next" href="{{ site.url }}{{ page.next_post.url }}" title="{{ page.next_post.title }}"><span class="title">{{ page.next_post.title }}</span></a></li>
+            <li>Next: <a class="next" href="{{ site.url }}{{ page.next_post.url }}" title="{{ page.next_post.title }}"><span class="title">{{ page.next_post.title }}</span></a></li>
           {% endif %}
           {% if page.previous_post %}
-              <li>Previous: <a class="previous" href="{{ site.url }}{{ page.previous_post.url }}" title="{{ page.previous_post.title }}"><span class="title">{{ page.previous_post.title }}</span></a></li>
+            <li>Previous: <a class="previous" href="{{ site.url }}{{ page.previous_post.url }}" title="{{ page.previous_post.title }}"><span class="title">{{ page.previous_post.title }}</span></a></li>
           {% endif %}
         </ul>
       </nav>
