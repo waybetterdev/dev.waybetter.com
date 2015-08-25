@@ -1,3 +1,8 @@
 sculpin_content_types:
     posts:
         permalink: blog/:year/:month/:day/:filename/
+    authors:
+        type: path
+        singular_name: author
+        path: authors
+        permalink: pretty
