@@ -8,8 +8,9 @@ author: [nikki-stevens]
 
 ---
 
-<img class="img-small" src="https://instagram.com/p/4QBQUIGNP3/?taken-by=poodlethebulldog">
-
+<img class="img-small" src="/images/posts/JUPI.gif"> 
+<img class="img-med" src="/images/posts/JUPI.gif"> 
+<img class="img-large" src="/images/posts/JUPI.gif"> 
 You're all programmers, right? And you're writing code snippets on your Sculpin
 powered blog? Yeah. So you want some highlighting with your static site generation?
 Here you go!
