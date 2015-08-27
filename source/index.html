@@ -8,29 +8,29 @@ use:
     - posts
 ---
 {% for post in page.pagination.items %}
-  <article>
-    <header>
-      <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-      <p>by:
-      {% for name in post.name %}
-        <b><a href="{{ site.url }}/authors/{{ post.author[loop.index0] }}">{{ name }}</a></b>{% if not loop.last %}, {% endif %}
-      {% endfor %}
-      </p>
-    </header>
-    <div>
-      <p>{{ post.blocks.content|length > 200 ? post.blocks.content|striptags|slice(0, 200) ~ '...' : post.blocks.content|striptags  }}</p>
-    </div>
-    {% if post.meta.tags %}
-      <p class="tags">
-        Tags:
-        {% for tag in post.meta.tags %}
-          {% for author in post.meta.author %}
-            {% include 'partials/tags.html' %}
+    <article>
+        <header>
+          <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+          <p>by:
+          {% for name in post.name %}
+            <b><a href="{{ site.url }}/authors/{{ post.author[loop.index0] }}">{{ name }}</a></b>{% if not loop.last %}, {% endif %}
           {% endfor %}
-        {% endfor %}
-      </p>
-    {% endif %}
-  </article>
+          </p>
+        </header>
+        <p>
+          {% for snippet in post.meta.snippet %}
+        <b>{{ snippet }}</b>
+          {% endfor %}
+        </p>
+        {% if post.meta.tags %}
+            <p class="tags">
+            Tags:
+            {% for tag in post.meta.tags %}
+              {% include 'partials/tags.html' %}
+            {% endfor %}
+            </p>
+        {% endif %}
+    </article>
 {% endfor %}
 {% if page.pagination.previous_page or page.pagination.next_page %}
     <nav>
