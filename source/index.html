@@ -17,9 +17,11 @@ use:
           {% endfor %}
           </p>
         </header>
-        <div>
-          <p>{{ post.blocks.content|length > 200 ? post.blocks.content|striptags|slice(0, 200) ~ '...' : post.blocks.content|striptags  }}</p>
-        </div>
+        <p>
+          {% for snippet in post.meta.snippet %}
+        <b>{{ snippet }}</b>
+          {% endfor %}
+        </p>
         {% if post.meta.tags %}
             <p class="tags">
             Tags:
