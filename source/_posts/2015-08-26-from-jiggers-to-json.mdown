@@ -1,0 +1,85 @@
+---
+title: From Jiggers to JSON
+tags: [career, bartender, single parent, teresa-nededog]
+categories: [personal]    
+name: [Teresa Nededog]
+author: [teresa-nededog]
+snippet: [Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque cumque neque architecto asperiores consequuntur repellat voluptate ut. A ipsam culpa voluptates inventore voluptas quia vel ipsa quis laudantium? Nulla?]
+---
+
+Years ago, I wanted nothing more than to be a stay at home wife and mother. Unfortunately, financial hardship pressured me into the work force. I've managed bars and restaurants for most of my early adult life and for a while, I thought that was my future.  Finishing school became something I could hardly allow myself to even imagine.  I thought my career in the service industry was a fixed path.
+Running my own restaurant became my single greatest measure of success. So I worked hard and almost reached that goal.    
+
+With a military family, however, moving from place to place was common and when I was offered my own restaurant in Virgina, we were hit with orders to San Antonio, Texas in the upcoming month. My then husband was pursuing a career as a Naval Bio Med Tech in Fort Sam Houston and I decided to leave my hard work behind because a good wife must make sacrifices for her husband 
+_...right?_
+
+---
+
+Fast forward, I end up back in Hawaii, now a single mother. To make up for past grievances, my now ex-husband offered me his GI Bill to attend college for free! The redress was happily accepted. "I promised your mom I'd put you through school," he said, "...and I'm sorry for everything." 
+
+In less than 2 weeks, I transferred my prior credits from the University of Hawaii to Hawaii Pacific University.  I was allowed to remember the dreams of my younger years that I've always wanted to be part of the tech world. I was given an opportunity only few are blessed with. 
+
+>_I had the chance to start over._  
+
+I had heard that HPU had a great computer science program and I didn't want to waste any more time. My counselor told me with all my core credits near completion, I will only have my major to focus on and could possibly graduate within a year and half! I was enrolled in the upcoming semester, full-time, ready to be the person I knew I was and someone my daughter could look up to. However, financial hardship made yet another grand appearance and the struggle felt so much more difficult this time around!  
+
+I worked odd jobs here and there until I settled on a marketing gig. To be more specific, marketing wine and spirits.  With an interchangable job title of Marketing Representative and Promotional Model (not fashion or runway, trust me), I gained a lot of connections within the ancient world of alcohol.  I was trained in the art of alcohol connoisseurism (even a word?) for events and through my love of people, I later became a Promotional Bartender. 
+<img class="img-med" src="/images/posts/lamb.jpg">
+Getting into Hawaii's bartending world was tough. If one was looking to make the most money out of their limited time, bartending, especially in Hawaii, was the way to do it. With full-time classes, a young daughter and Hawaii rent, I had to make the most per hour without ethical compromise. However, one had to know someone who partied with someone who was the son of a bar owner who just so happened to be losing a good bartender who would've otherwise never have quit or been fired.  Oh, and one also had to have known how to bartend since before they were born.  I fell into the, "Well, I HAVE technically worked at bars (in the restauraunts) and when events called for it..." category which, of course, didn't fly. 
+
+Money was dwindling and new bills were surfacing.  I finally came across a lead from my boss that a new bar was opening up and they needed bartenders NOW.  I served the new bar owner at a golf tournament and he remembered me!  My boss put me in contact with him and he was very enthusiastic.  The opportunity unfortunately didn't last. I had to be out of country for over a week within in the next couple of days and he needed to start training people during that time.  The position quickly dried up.  
+
+I couldn't give up.  I knew it was the money my daughter and I needed so I kept searching, even while out of country. As soon as I came back, I landed one interview after applying to almost 50 job openings! I lucked out! Barney, the bar owner, took the time to look over my resume after we met, felt confident I would do well.
+
+---
+
+<img class="img-med" src="/images/posts/bar.jpg">  
+
+I was a full-time bartender there for almost two years. I finally graduated from college and went through remedial training for software development while still employed. The owner and his wife became close with my family and before I moved to LA, Barney hosted the biggest going away party I never had. His sister-in-law even cooked for the event. With a bit of alcohol in his system, Barney declared to all of our guests that his best bartender was leaving and he wouldn't be able to replace her.  My eyes watered.  
+> _Someone took a chance on me..._
+
+and wasn't disappointed.
+
+<img class="img-large" src="/images/posts/graduation.jpg">  
+
+I was often questioned about leaving the island and I'd simply reply,  
+
+> _"I need a better life for myself and my daughter."_
+
+   
+
+I love bartending, which was so much more enjoyable to me than managing restaurants. My heart, I realized, had always been with tech. If there would've only been more opportuny in Hawaii, I would've already lived in heaven.
+
+---
+
+Before I left the island, I was asked to speak to an all girl, middle school STEM camp about the benefits of learning to code.  I left out the life story and jumped into why. 
+
+>> "First, there aren't enough of us techies but 
+
+> _especially female techies!_
+
+Second, code is everywhere from your rice cooker to your atm, to your tree lights.  This means 
+
+> code is in our food, our money and our _Christmas!"_  
+
+(They liked that one.) 
+
+<img class="img-med" src="/images/posts/camp.jpg">
+
+When I was through, I received this message from the camp's coordinator: 
+
+"Hey Teresa,
+I was skimming through some of the evals and came across this comment:
+
+>> Question: After hearing these 3 women, do you feel inspired to pursue a career in STEM?
+
+> Answer: I do feel inspired because I want to be like Teresa and start coding...!"
+
+I smile. At least one little woman listened.
+
+<img class="img-med" src="/images/posts/girls.jpg"> 
+
+Now I'm in Los Angeles working with a team of engineers, who like Barney, decided to take a chance on me. From no education, broke, single-mother to the full-time student, kinda bartending/ marketing rep (what was I really?), to bartender and now finally software engineer! My mind still can't wrap itself around this unlikely tranformation. 
+>> I have finally become the person I've always wanted to be 
+
+> _and the woman my daughter can look up to._  
