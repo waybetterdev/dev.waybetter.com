@@ -24,7 +24,9 @@ In less than 2 weeks, I transferred my prior credits from the University of Hawa
 I had heard that HPU had a great computer science program and I didn't want to waste any more time. My counselor told me with all my core credits near completion, I will only have my major to focus on and could possibly graduate within a year and half! I was enrolled in the upcoming semester, full-time, ready to be the person I knew I was and someone my daughter could look up to. However, financial hardship made yet another grand appearance and the struggle felt so much more difficult this time around!  
 
 I worked odd jobs here and there until I settled on a marketing gig. To be more specific, marketing wine and spirits.  With an interchangable job title of Marketing Representative and Promotional Model (not fashion or runway, trust me), I gained a lot of connections within the ancient world of alcohol.  I was trained in the art of alcohol connoisseurism (even a word?) for events and through my love of people, I later became a Promotional Bartender. 
-<img class="img-med" src="/images/posts/lamb.jpg">
+<br>
+<img class="img-large" src="/images/posts/lamb.jpg">
+<br>
 Getting into Hawaii's bartending world was tough. If one was looking to make the most money out of their limited time, bartending, especially in Hawaii, was the way to do it. With full-time classes, a young daughter and Hawaii rent, I had to make the most per hour without ethical compromise. However, one had to know someone who partied with someone who was the son of a bar owner who just so happened to be losing a good bartender who would've otherwise never have quit or been fired.  Oh, and one also had to have known how to bartend since before they were born.  I fell into the, "Well, I HAVE technically worked at bars (in the restauraunts) and when events called for it..." category which, of course, didn't fly. 
 
 Money was dwindling and new bills were surfacing.  I finally came across a lead from my boss that a new bar was opening up and they needed bartenders NOW.  I served the new bar owner at a golf tournament and he remembered me!  My boss put me in contact with him and he was very enthusiastic.  The opportunity unfortunately didn't last. I had to be out of country for over a week within in the next couple of days and he needed to start training people during that time.  The position quickly dried up.  
@@ -32,8 +34,9 @@ Money was dwindling and new bills were surfacing.  I finally came across a lead 
 I couldn't give up.  I knew it was the money my daughter and I needed so I kept searching, even while out of country. As soon as I came back, I landed one interview after applying to almost 50 job openings! I lucked out! Barney, the bar owner, took the time to look over my resume after we met, felt confident I would do well.
 
 ---
-
-<img class="img-med" src="/images/posts/bar.jpg">  
+<br>
+<img class="img-large" src="/images/posts/bar.jpg">  
+<br>
 
 I was a full-time bartender there for almost two years. I finally graduated from college and went through remedial training for software development while still employed. The owner and his wife became close with my family and before I moved to LA, Barney hosted the biggest going away party I never had. His sister-in-law even cooked for the event. With a bit of alcohol in his system, Barney declared to all of our guests that his best bartender was leaving and he wouldn't be able to replace her.  My eyes watered.  
 > _Someone took a chance on me..._
@@ -64,7 +67,7 @@ Second, code is everywhere from your rice cooker to your atm, to your tree light
 
 (They liked that one.) 
 
-<img class="img-med" src="/images/posts/camp.jpg">
+<img class="img-large" src="/images/posts/camp.jpg">
 
 When I was through, I received this message from the camp's coordinator: 
 
@@ -77,7 +80,7 @@ I was skimming through some of the evals and came across this comment:
 
 I smile. At least one little woman listened.
 
-<img class="img-med" src="/images/posts/girls.jpg"> 
+<img class="img-large" src="/images/posts/girls.jpg"> 
 
 Now I'm in Los Angeles working with a team of engineers, who like Barney, decided to take a chance on me. From no education, broke, single-mother to the full-time student, kinda bartending/ marketing rep (what was I really?), to bartender and now finally software engineer! My mind still can't wrap itself around this unlikely tranformation. 
 >> I have finally become the person I've always wanted to be 
