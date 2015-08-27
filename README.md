@@ -34,8 +34,7 @@ A very basic Sculpin based blog supporting the following features:
  * A blog tags page at `/blog/tags`.
  * A blog tag index at `/blog/tags/$tag`. Similar to the blog archive
    except broken down by each tag.
-
-
+ 
 Build
 -----
 
@@ -118,3 +117,24 @@ If you want to make sure that rsync deletes files that you deleted locally on th
 In fact, `publish.sh` is provided to get you started. If you plan on deploying to an
 Amazon S3 bucket, you can use `s3-publish.sh` alongside the `s3cmd` utility (must be
 installed separately).
+
+Adding New Authors
+------------------
+1. Add bios to /source/_views/partials/first-last 
+2. Save small bio photo in /source/images/bio-pics/first-last.png
+3. Author posts must be saved in /source/_posts/YYYY-MM-DD-this-is-a-new-post
+  - Format post using example posts marked "DELETE ME"
+  - Be sure to include author's name as a tag (ex. jon-doe)
+   
+Adding Images
+-------------   
+Add embedded images to your blog first by 
+1. Save your image to: dev.waybetter.com/source/images/posts
+2. Access your image by placing the desired tags within your blog post.    
+Image tags should look like this:    
+<img class="img-thumb" src="/images/posts/your-photo.jpg">     
+<img class="img-small" src="/images/posts/your-photo.jpg">     
+<img class="img-medium" src="/images/posts/your-photo.jpg">    
+<img class="img-large" src="/images/posts/your-photo.jpg">     
+<img class="img-huge" src="/images/posts/your-photo.jpg">     
+ 
