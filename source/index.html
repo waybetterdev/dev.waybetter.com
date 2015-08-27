@@ -10,16 +10,23 @@ use:
 {% for post in page.pagination.items %}
     <article>
         <header>
-            <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+          <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+          <p>by:
+          {% for name in post.name %}
+            <b><a href="{{ site.url }}/authors/{{ post.author[loop.index0] }}">{{ name }}</a></b>{% if not loop.last %}, {% endif %}
+          {% endfor %}
+          </p>
         </header>
-        <div>
-            {{ post.blocks.content|raw }}
-        </div>
+        <p>
+          {% for snippet in post.meta.snippet %}
+        <b>{{ snippet }}</b>
+          {% endfor %}
+        </p>
         {% if post.meta.tags %}
             <p class="tags">
             Tags:
             {% for tag in post.meta.tags %}
-            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+              {% include 'partials/tags.html' %}
             {% endfor %}
             </p>
         {% endif %}

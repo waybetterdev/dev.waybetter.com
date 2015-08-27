@@ -1,0 +1,7 @@
+<!-- conditional statement to skip author tags from appearing in posts and tags page -->
+{% if tag not in post.author %}
+  {% if tag not in page.author %}
+    <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
+  {% endif %}
+{% endif %}
+

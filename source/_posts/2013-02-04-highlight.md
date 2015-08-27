@@ -1,12 +1,16 @@
 ---
 title: Syntax Highlighting - DELETE ME.
-categories:
-    - features
+categories: [features]
+tags: [angular, frontend, nikki-stevens]
+name: [Nikki Stevens]
+author: [nikki-stevens]
+snippet: [Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque cumque neque architecto asperiores consequuntur repellat voluptate ut. A ipsam culpa voluptates inventore voluptas quia vel ipsa quis laudantium? Nulla?]
 
 ---
 
-<img class="img-small" src="https://instagram.com/p/4QBQUIGNP3/?taken-by=poodlethebulldog">
-
+<img class="img-small" src="/images/posts/JUPI.gif"> 
+<img class="img-med" src="/images/posts/JUPI.gif"> 
+<img class="img-large" src="/images/posts/JUPI.gif"> 
 You're all programmers, right? And you're writing code snippets on your Sculpin
 powered blog? Yeah. So you want some highlighting with your static site generation?
 Here you go!

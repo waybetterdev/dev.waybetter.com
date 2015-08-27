@@ -1,0 +1,29 @@
+---
+title: Authors
+use:
+    - posts
+
+generator: [posts_tag_index, pagination]
+pagination:
+    provider: page.tag_posts
+---
+{% extends "default" %}
+{% block meta %}
+    <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/blog/tags/{{ page.tag }}"/> 
+    <meta name="robots" content="noindex, follow">
+{% endblock %}
+{% block content %}
+  <header>
+    <!-- conditions connect to specific partials containing corresponding author bios dependent upon user selection -->
+    {% if page.tag == "nikki-stevens" %} 
+      {% include 'partials/nikki-stevens.html' %}
+
+    {% elseif page.tag == "mike-klass" %}
+      {% include 'partials/mike-klass.html' %}
+
+    {% elseif page.tag == "jason-savino" %}
+      {% include 'partials/jason-savino.html' %}
+    {% endif %}
+  </header>
+  {% include 'partials/articles.html' %} <!-- partial returns all articles posted by selected author -->
+{% endblock %}

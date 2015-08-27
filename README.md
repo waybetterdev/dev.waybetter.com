@@ -135,6 +135,7 @@ Image tags should look like this:
 <img class="img-thumb" src="/images/posts/your-photo.jpg">     
 <img class="img-small" src="/images/posts/your-photo.jpg">     
 <img class="img-medium" src="/images/posts/your-photo.jpg">    
+
 <img class="img-large" src="/images/posts/your-photo.jpg">     
 <img class="img-huge" src="/images/posts/your-photo.jpg">     
  

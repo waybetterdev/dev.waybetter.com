@@ -7,7 +7,8 @@ use:
 <h2>Tags</h2>
 
 <div>
-{% for tag,posts in data.posts_tags %}
-<a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
-{% endfor %}
+<!-- conditions to hide author tag names on the tags page --> 
+  {% for tag,posts in data.posts_tags %}
+    {% include 'partials/tags.html' %}
+  {% endfor %}
 </div>
