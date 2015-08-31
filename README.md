@@ -125,8 +125,6 @@ Adding New Authors
 3. Author posts must be saved in /source/_posts/YYYY-MM-DD-this-is-a-new-post
   - Format post using example posts marked "DELETE ME"
   - Be sure to include author's name as a tag (ex. jon-doe)
-4. Update author array list in /source/_views/partials/tags.html
-
    
 Adding Images
 -------------   
@@ -134,7 +132,10 @@ Add embedded images to your blog first by
 1. Save your image to: dev.waybetter.com/source/images/posts
 2. Access your image by placing the desired tags within your blog post.    
 Image tags should look like this:    
-<img class="post-images-small" src="/images/posts/your-photo.jpg">     
-<img class="post-images-medium" src="/images/posts/your-photo.jpg">    
-<img class="post-images-large" src="/images/posts/your-photo.jpg">     
+<img class="img-thumb" src="/images/posts/your-photo.jpg">     
+<img class="img-small" src="/images/posts/your-photo.jpg">     
+<img class="img-medium" src="/images/posts/your-photo.jpg">    
+
+<img class="img-large" src="/images/posts/your-photo.jpg">     
+<img class="img-huge" src="/images/posts/your-photo.jpg">     
  
