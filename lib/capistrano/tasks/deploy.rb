@@ -1,0 +1,2 @@
+# deploy/after_restart.rb
+run "cd #{release_path} && bundle exec rake RAILS_ENV=#{environment} APP=#{app} DEPLOYED_BY=\"#{deployed_by}\" REVISION=#{revision.chomp} NR_KEY=#{node[:newrelic_key]} newrelic:notify"
