@@ -1,11 +1,11 @@
+INSTALLATION
 
+1. $ git clone https://github.com/waybetterdev/dev.waybetter.com.git
 
-
-
-
-
-
-
+2. $ cd dev.waybetter.com
+3. $ sculpin install
+4. $ php sculpin.phar generate --watch --server
+5. Navigate to: http://localhost:8000/
 
 
 Information from the original Sculpin README
