@@ -32,9 +32,9 @@ There is a lot of <a href="<a href="https://subfictional.com/2012/07/02/language
 
 The one thing that I'm still struggling with is that after I exorcise 'guys' from my vocabulary, something else has to take its place. 
 
-To my ear, "folks" feels anachronistic, "everyone" feels robotic and "friends" feels false and sacchrine. 
+To my ear, "folks" feels anachronistic, "everyone" feels robotic and "friends" feels false and saccharine. 
 
-We are, in all seriousness, going back and forth about whether or not "homies" is gendered or bogged down with other issues. An <a href="http://www.oakland.edu/upload/docs/WRT/Cat%202%203rd%20Place%20James%20Gillen%20III.pdf">informal research paper</a> says it's fine., but I'm steering clear of it just in case. Though it's my favorite runner up so far.
+We are, in all seriousness, going back and forth about whether or not "homies" is gendered or bogged down with other issues. An <a href="http://www.oakland.edu/upload/docs/WRT/Cat%202%203rd%20Place%20James%20Gillen%20III.pdf">informal research paper</a> says it's fine, but I'm steering clear of it just in case. Though it's my favorite runner up so far.
 
 
 ### Channel to something positive
@@ -46,4 +46,4 @@ I don't know how many times I'm going to slip and say "guys" or similar.  As I w
 
 So, when the jar is full I'll be taking whatever is in it, doubling it, and channeling it to something positive. <a href="http://www.ashedryden.com">Ashe Dryden</a> does amazing work promoting diversity and inclusivity in technology and I'll be <a href="http://www.ashedryden.com/donate">donating</a> everything to her work when the jar fills up.
 
-Thanks for reading, homies.
+Thanks for reading, folks.
