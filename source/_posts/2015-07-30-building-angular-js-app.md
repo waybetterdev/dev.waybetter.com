@@ -3,7 +3,7 @@ title: Building an AngularJS app
 tags: [angular, frontend, jason-savino]
 name: [Jason Savino]
 author: [jason-savino]
-snippet: [Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloremque cumque neque architecto asperiores consequuntur repellat voluptate ut. A ipsam culpa voluptates inventore voluptas quia vel ipsa quis laudantium? Nulla?]
+snippet: [This post will walk you through how to get an AngularJS client-side theme running on an existing Drupal 8 app server. We will discuss setting up the Drupal 8 server in a future post.]
 ---
 
 This post will walk you through how to get an AngularJS client-side theme running on an existing Drupal 8 app server. We will discuss setting up the Drupal 8 server in a future post.
